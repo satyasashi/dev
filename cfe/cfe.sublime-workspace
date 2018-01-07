@@ -1,0 +1,344 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"time",
+				"timezone"
+			],
+			[
+				"was",
+				"was_published_recently"
+			],
+			[
+				"old",
+				"old_question"
+			],
+			[
+				"tim",
+				"timezone"
+			],
+			[
+				"pu",
+				"pub_date"
+			],
+			[
+				"datetme",
+				"datetime"
+			],
+			[
+				"tempt",
+				"template_name"
+			],
+			[
+				"pb",
+				"-pub_date"
+			],
+			[
+				"q",
+				"question"
+			],
+			[
+				"get",
+				"get_object_or_404"
+			],
+			[
+				"Htt",
+				"HttpResponseRedirect"
+			],
+			[
+				"sle",
+				"selected_choice"
+			],
+			[
+				"que",
+				"question"
+			],
+			[
+				"qe",
+				"question_id"
+			],
+			[
+				"ques",
+				"question_id"
+			],
+			[
+				"fo",
+				"format"
+			],
+			[
+				"res",
+				"response"
+			],
+			[
+				"quse",
+				"question_id"
+			],
+			[
+				"H",
+				"HttpResponse"
+			],
+			[
+				"qu",
+				"question_text"
+			],
+			[
+				"m",
+				"max_length"
+			],
+			[
+				"f",
+				"format"
+			],
+			[
+				"sticks",
+				"sticks_taken"
+			],
+			[
+				"stik",
+				"sticks_taken"
+			],
+			[
+				"stic",
+				"sticks_taken"
+			],
+			[
+				"j",
+				"j.b\tjava.beans."
+			],
+			[
+				"v",
+				"value"
+			],
+			[
+				"bubble",
+				"bubblesort"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"d",
+				"dbUsername"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"st",
+				"style\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/F/Programming/dev/cfe/src/cfe/settings/local.py",
+		"/F/Programming/dev/cfe/src/cfe/settings/production.py",
+		"/F/Programming/dev/cfe/src/cfe/settings/__init__.py",
+		"/F/Programming/dev/cfe/src/cfe/settings/base.py",
+		"/F/Programming/DjangoPractice/mysite/polls/views.py",
+		"/F/Programming/DjangoPractice/mysite/polls/templates/polls/detail.html",
+		"/F/Programming/DjangoPractice/mysite/polls/templates/polls/index.html",
+		"/F/Programming/DjangoPractice/mysite/polls/urls.py",
+		"/F/Programming/DjangoPractice/mysite/polls/models.py",
+		"/F/Programming/DjangoPractice/mysite/polls/tests.py",
+		"/F/Programming/DjangoPractice/mysite/mysite/settings.py",
+		"/F/Programming/DjangoPractice/mysite/polls/admin.py",
+		"/F/Programming/DjangoPractice/mysite/polls/templates/polls/results.html",
+		"/F/Programming/DjangoPractice/mysite/mysite/urls.py",
+		"/F/PythonPractice/sample.py",
+		"/F/PythonPractice/sticksgame.py",
+		"/C/Java/jdk1.8.0_66/bin/bubblesortkris.java",
+		"/C/Users/welcome/Desktop/udaya.html",
+		"/C/Java/jdk1.8.0_66/bin/javaapplet.java",
+		"/C/Java/jdk1.8.0_66/bin/javaapplet.html",
+		"/C/Java/jdk1.8.0_66/bin/applet1.java",
+		"/C/Java/jdk1.8.0_66/bin/appletviewer.exe",
+		"/C/Java/jdk1.8.0_66/bin/appletone.java",
+		"/C/Java/jdk1.8.0_66/bin/javaapplet1.html",
+		"/C/Java/jdk1.8.0_66/bin/bubblesortmain.java",
+		"/C/Java/jdk1.8.0_66/bin/insertionmain.java",
+		"/C/Java/jdk1.8.0_66/bin/TimeTest.java",
+		"/C/Java/jdk1.8.0_66/bin/shuffle.java",
+		"/C/Java/jdk1.8.0_66/bin/sorting.java",
+		"/C/Java/jdk1.8.0_66/bin/substring_or.java",
+		"/C/Java/jdk1.8.0_66/bin/looping.java",
+		"/C/Users/welcome/Desktop/index.html"
+	],
+	"find":
+	{
+		"height": 41.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 103.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "cfe.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

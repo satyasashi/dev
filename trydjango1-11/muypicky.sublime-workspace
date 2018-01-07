@@ -1,0 +1,642 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"re",
+				"render"
+			],
+			[
+				"time",
+				"timezone"
+			],
+			[
+				"was",
+				"was_published_recently"
+			],
+			[
+				"old",
+				"old_question"
+			],
+			[
+				"tim",
+				"timezone"
+			],
+			[
+				"pu",
+				"pub_date"
+			],
+			[
+				"datetme",
+				"datetime"
+			],
+			[
+				"tempt",
+				"template_name"
+			],
+			[
+				"pb",
+				"-pub_date"
+			],
+			[
+				"q",
+				"question"
+			],
+			[
+				"get",
+				"get_object_or_404"
+			],
+			[
+				"Htt",
+				"HttpResponseRedirect"
+			],
+			[
+				"sle",
+				"selected_choice"
+			],
+			[
+				"que",
+				"question"
+			],
+			[
+				"qe",
+				"question_id"
+			],
+			[
+				"ques",
+				"question_id"
+			],
+			[
+				"fo",
+				"format"
+			],
+			[
+				"res",
+				"response"
+			],
+			[
+				"quse",
+				"question_id"
+			],
+			[
+				"H",
+				"HttpResponse"
+			],
+			[
+				"qu",
+				"question_text"
+			],
+			[
+				"m",
+				"max_length"
+			],
+			[
+				"f",
+				"format"
+			],
+			[
+				"sticks",
+				"sticks_taken"
+			],
+			[
+				"stik",
+				"sticks_taken"
+			],
+			[
+				"stic",
+				"sticks_taken"
+			],
+			[
+				"j",
+				"j.b\tjava.beans."
+			],
+			[
+				"v",
+				"value"
+			],
+			[
+				"bubble",
+				"bubblesort"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"d",
+				"dbUsername"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"st",
+				"style\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/muypicky/settings/__init__.py",
+			"settings":
+			{
+				"buffer_size": 98,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/muypicky/settings/base.py",
+			"settings":
+			{
+				"buffer_size": 3154,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/restaurants/views.py",
+			"settings":
+			{
+				"buffer_size": 228,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "README.txt",
+			"settings":
+			{
+				"buffer_size": 73,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/muypicky/urls.py",
+			"settings":
+			{
+				"buffer_size": 823,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/templates/base.html",
+			"settings":
+			{
+				"buffer_size": 152,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/muypicky/settings/production.py",
+			"settings":
+			{
+				"buffer_size": 3120,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "prv",
+		"selected_items":
+		[
+			[
+				"prv",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"install package",
+				"Package Control: Install Package"
+			],
+			[
+				"Pack",
+				"Install Package Control"
+			]
+		],
+		"width": 444.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/F/Programming/dev/trydjango1-11",
+		"/F/Programming/dev/trydjango1-11/src",
+		"/F/Programming/dev/trydjango1-11/src/muypicky",
+		"/F/Programming/dev/trydjango1-11/src/muypicky/settings",
+		"/F/Programming/dev/trydjango1-11/src/templates"
+	],
+	"file_history":
+	[
+		"/C/Users/welcome/AppData/Roaming/Sublime Text 3/Packages/HTML/html_completions.py",
+		"/F/Programming/dev/trydjango1-11/sme.html",
+		"/C/Users/welcome/AppData/Roaming/Sublime Text 3/Packages/JavaScript/JavaScript.sublime-syntax",
+		"/F/Programming/dev/trydjango1-11/src/templates/base.html",
+		"/F/Programming/dev/trydjango1-11/src/muypicky/settings/local.py",
+		"/F/Programming/dev/trydjango1-11/src/requirements.txt",
+		"/F/Programming/dev/trydjango1-11/src/muypicky/old_settings.py",
+		"/F/Programming/dev/trydjango1-11/src/muypicky/settings/production.py",
+		"/F/Programming/dev/trydjango1-11/src/muypicky/settings/__init__.py",
+		"/F/Programming/dev/trydjango1-11/src/muypicky/settings/base.py",
+		"/F/Programming/dev/cfe/src/cfe/settings/local.py",
+		"/F/Programming/dev/cfe/src/cfe/settings/production.py",
+		"/F/Programming/dev/cfe/src/cfe/settings/__init__.py",
+		"/F/Programming/dev/cfe/src/cfe/settings/base.py",
+		"/F/Programming/DjangoPractice/mysite/polls/views.py",
+		"/F/Programming/DjangoPractice/mysite/polls/templates/polls/detail.html",
+		"/F/Programming/DjangoPractice/mysite/polls/templates/polls/index.html",
+		"/F/Programming/DjangoPractice/mysite/polls/urls.py",
+		"/F/Programming/DjangoPractice/mysite/polls/models.py",
+		"/F/Programming/DjangoPractice/mysite/polls/tests.py",
+		"/F/Programming/DjangoPractice/mysite/mysite/settings.py",
+		"/F/Programming/DjangoPractice/mysite/polls/admin.py",
+		"/F/Programming/DjangoPractice/mysite/polls/templates/polls/results.html",
+		"/F/Programming/DjangoPractice/mysite/mysite/urls.py",
+		"/F/PythonPractice/sample.py",
+		"/F/PythonPractice/sticksgame.py",
+		"/C/Java/jdk1.8.0_66/bin/bubblesortkris.java",
+		"/C/Users/welcome/Desktop/udaya.html",
+		"/C/Java/jdk1.8.0_66/bin/javaapplet.java",
+		"/C/Java/jdk1.8.0_66/bin/javaapplet.html",
+		"/C/Java/jdk1.8.0_66/bin/applet1.java",
+		"/C/Java/jdk1.8.0_66/bin/appletviewer.exe",
+		"/C/Java/jdk1.8.0_66/bin/appletone.java",
+		"/C/Java/jdk1.8.0_66/bin/javaapplet1.html",
+		"/C/Java/jdk1.8.0_66/bin/bubblesortmain.java",
+		"/C/Java/jdk1.8.0_66/bin/insertionmain.java",
+		"/C/Java/jdk1.8.0_66/bin/TimeTest.java",
+		"/C/Java/jdk1.8.0_66/bin/shuffle.java",
+		"/C/Java/jdk1.8.0_66/bin/sorting.java",
+		"/C/Java/jdk1.8.0_66/bin/substring_or.java",
+		"/C/Java/jdk1.8.0_66/bin/looping.java",
+		"/C/Users/welcome/Desktop/index.html"
+	],
+	"find":
+	{
+		"height": 41.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/muypicky/settings/__init__.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 98,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								98,
+								98
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/muypicky/settings/base.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3154,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								41,
+								41
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/restaurants/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 228,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								195,
+								195
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "README.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 73,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								73,
+								73
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/muypicky/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 823,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								814,
+								814
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/templates/base.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 152,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								117,
+								117
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/muypicky/settings/production.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3120,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								835,
+								835
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 417.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 103.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "muypicky.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
