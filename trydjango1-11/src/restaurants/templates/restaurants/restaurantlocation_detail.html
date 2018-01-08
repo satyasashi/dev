@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block title %}Restaurant | {{block.super}} {% endblock %}
+
+{% block content %}
+{% comment %}
+	when you see the results in Terminal, it retreives the {'pk'} passed in URL and the Object dictionary containing the Data Objects. So, you can use 'object' to get -- 'name', 'category',...
+{% endcomment %}
+
+<h1>{{object.name}} <small>{{object.category}}</small></h1>
+<p>{{object.location}}</p>
+<p>{{object.timestamp}}, Updated {{object.updated|timesince}} ago.</p>
+{% endblock %}
