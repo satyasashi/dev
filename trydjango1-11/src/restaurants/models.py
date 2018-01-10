@@ -1,4 +1,7 @@
 from django.db import models
+# Signals. Does a task Before saving something and after saving (Pre_save & Post_save)
+from django.db.models.signals import pre_save, post_save
+
 
 # Create your models here.
 class RestaurantLocation(models.Model):
@@ -7,7 +10,12 @@ class RestaurantLocation(models.Model):
     category    =   models.CharField(max_length=120, null=True, blank=True)
     timestamp   =   models.DateTimeField(auto_now_add=True)
     updated     =   models.DateTimeField(auto_now=True)
+    slug		=	models.SlugField(null=True, blank=True)
     #my_date_field = models.DateField(auto_now=False, auto_now_add=False)
 
     def __str__(self):
-        return self.name
+    	return self.name
+
+    @property
+    def title(self):
+    	return self.name # obj.title
