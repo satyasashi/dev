@@ -45,8 +45,9 @@ def unique_slug_generator(instance, new_slug=None):
 		slug = slugify(instance.title) # Model's instance obj -> obj.title
 
 	# Klass holds instance(Model's) class name -> 
+	# which at moment is 'RestaurantLocation'
 	Klass = instance.__class__ 
-
+	print(Klass)
 	# Checks if the above slug exists in database
 	qs_exists = Klass.objects.filter(slug=slug).exists()
 

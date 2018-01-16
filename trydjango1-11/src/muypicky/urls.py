@@ -32,7 +32,7 @@ urlpatterns = [
     # url(r'^$', HomeView.as_view()),
     url(r'^$', TemplateView.as_view(template_name="home.html")),
     url(r'^restaurants/$', RestaurantListView.as_view()),
-    url(r'^restaurants/(?P<rest_id>\d+)/$', RestaurantDetailView.as_view()),
+    url(r'^restaurants/(?P<slug>[\w-]+)/$', RestaurantDetailView.as_view()),
     #url(r'^restaurants/(?P<slug>\w+)/$', RestaurantListView.as_view()),
     #url(r'^restaurants/asian/$', AsianFusionRestaurantListView.as_view()),
     url(r'^about/$', TemplateView.as_view(template_name="about.html")),

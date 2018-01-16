@@ -12,10 +12,13 @@ from django.views.generic import TemplateView, ListView, DetailView
 
 from django.http import HttpResponse
 
+from .forms import RestaurantCreateForm
 from .models import RestaurantLocation
 
 
 # Create your views here.
+
+# Function based View to understand how it really works. Later Class Based View
 def restaurant_listview(request):
 	template_name = 'restaurants/restaurants_list.html'
 	queryset = RestaurantLocation.objects.all()
@@ -24,6 +27,20 @@ def restaurant_listview(request):
 	}
 	return render(request, template_name, context)
 
+# Function based View to understand how it really works. Later Class Based View
+def restaurant_detailview(request, slug):
+    template_name = 'restaurants/restaurantlocation_detail.html'
+    obj = RestaurantLocation.objects.get(slug=slug)
+    context = {
+        "object": obj,
+    }
+    return render(request, template_name, context)
+
+# Function based View to understand how it really works. Later Class Based View
+def restaurant_createview(request):
+    template_name = 'restaurants/form.html'
+    context = {}
+    return render(request, template_name, context)
 
 # Generic - ListView
 class RestaurantListView(ListView):
@@ -48,13 +65,14 @@ class RestaurantListView(ListView):
 
 # Generic - DetailView
 class RestaurantDetailView(DetailView):
-    queryset = RestaurantLocation.objects.all()
+    queryset = RestaurantLocation.objects.all()#filter(category__icontains='asian')
 
     # we don't know what Context is coming through by default. So, we mention it.
     # when you see the results in Terminal, it retreives the {'pk'} passed in URL
     # and the Object dictionary containing the Data Objects. So, you can use 'object'
     # to get -- 'name', 'category',...
     # For DetailView always Default Context will be 'object'
+
     def get_context_data(self, *args, **kwargs):
         print(self.kwargs)
         context = super(RestaurantDetailView, self).get_context_data(*args, **kwargs)
@@ -65,7 +83,8 @@ class RestaurantDetailView(DetailView):
     # If you change <pk> to <some_id> in URLs it shows 'pk' or 'slug' AttributeError.
     # You can change this to <some_id> which is also Object ID/PK it needs by using
     # get_object(self, *args, **kwargs). Also Import 'get_object_or_404' shortcut to TryExcept.
-    def get_object(self, *args, **kwargs):
-        rest_id = self.kwargs.get('rest_id') # <whatever_id> you gave in URLs RegexGroup
-        obj = get_object_or_404(RestaurantLocation, pk=rest_id) # OR  id = rest_id
-        return obj
+
+    # def get_object(self, *args, **kwargs):
+    #     rest_id = self.kwargs.get('rest_id') # <whatever_id> you gave in URLs RegexGroup
+    #     obj = get_object_or_404(RestaurantLocation, pk=rest_id) # OR  id = rest_id
+    #     return obj
