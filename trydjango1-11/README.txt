@@ -1,3 +1,3 @@
-Date: 09-01-2018
-Time: 09:40 PM
-Stopped tryDjango 1.11 video at 02:52:00 min
+Date: 17-01-2018
+Time: 01:43 AM
+Stopped tryDjango 1.11 video at 03:30:50 min

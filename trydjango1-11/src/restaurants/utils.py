@@ -29,6 +29,7 @@ chars = string.ascii_lowercase + string.digits --> abcdefghijklmnopqrstuvwxyz012
    randomString upto to 50 Characters includes a-z0-9.
 
 '''
+DONT_USE = ['create',]
 
 def random_string_generator(size=10, chars=string.ascii_lowercase + string.digits):
 	return ''.join(random.choice(chars) for _ in range(size))
@@ -43,6 +44,13 @@ def unique_slug_generator(instance, new_slug=None):
 		slug = new_slug
 	else:
 		slug = slugify(instance.title) # Model's instance obj -> obj.title
+
+	if slug in DONT_USE:
+		new_slug = "{slug}-{randstr}".format(
+			slug=slug,
+			randstr=random_string_generator(size=4)
+		)
+		return unique_slug_generator(instance, new_slug=new_slug)
 
 	# Klass holds instance(Model's) class name -> 
 	# which at moment is 'RestaurantLocation'

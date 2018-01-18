@@ -3,13 +3,15 @@
 {% block title %}Restaurant | {{block.super}} {% endblock %}
 
 {% block content %}
+<div class="container">
 <h1>Restaurant List</h1>
 
 <ul>
 {% for obj in object_list %}
-    <li><a href="/restaurants/{{obj.slug}}/">{{ obj }}</a> <br />
+    <li><a href="{% url 'restaurant-detail' slug=obj.slug %}">{{ obj }}</a> <br />
     {{obj.name}} {{obj.location}} {{obj.category}} {{obj.timestamp}}
     Updated {{obj.updated|timesince}} ago</li>
 {% endfor %}
 </ul>
+</div>
 {% endblock %}

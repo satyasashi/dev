@@ -4,5 +4,24 @@
 
 {% block content %}
 <h1>Add Restaurant</h1>
+<!-- 'non_field_errors' are error messages shown on top of Form not on Fields
+    That is why they are 'non_field_errors'
+ -->
+{% if form.errors.non_field_errors %}
+
+{{form.errors.non_field_errors}}
+
+{% endif %}
+<form action="" method="POST">{% csrf_token %}
+    <!--<input type="text" name="name" placeholder="Your Title" /><br />-->
+    <!--<input type="text" name="location" placeholder="Location" /><br />-->
+    <!--<input type="text" name="category" placeholder="Category" /><br />-->
+
+    <!--form as p will create 'input' elements according to our Forms.py as
+    Paragraphs <p> tags. Also there are form.as_
+    -->
+    {{form.as_p}}
+    <button type="submit">Save</button>
+</form>
 
 {% endblock %}
